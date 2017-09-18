@@ -1,6 +1,6 @@
 HodorGotBot
 =====
-[![Build Status](https://travis-ci.org/ilbonzo/node-zenhub.svg?branch=master)](https://travis-ci.org/ilbonzo/node-zenhub)
+[![Build Status](https://travis-ci.org/ilbonzo/HodorGotBot.svg?branch=master)](https://travis-ci.org/ilbonzo/HodorGotBot)
 
 v0.0.2
 
