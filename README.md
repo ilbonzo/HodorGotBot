@@ -1,7 +1,8 @@
 HodorGotBot
 =====
+[![Build Status](https://travis-ci.org/ilbonzo/HodorGotBot.svg?branch=master)](https://travis-ci.org/ilbonzo/HodorGotBot)
 
-v0.0.1
+v0.0.2
 
 HodorGotBot is a modern solution to the common problem of chat with Hodor on Telegram
 
