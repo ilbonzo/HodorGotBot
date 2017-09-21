@@ -1,6 +1,6 @@
 {
   "name": "hodor-got-bot",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "HodorGotBot provides a modern, solution to the common problem of chat with Hodor",
   "main": "src/index.js",
   "scripts": {
