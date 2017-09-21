@@ -9,6 +9,7 @@
   "author": "matteo@magni.me",
   "license": "MIT",
   "dependencies": {
+    "botkit": "^0.6.1",
     "node-telegram-bot-api": "^0.28.0",
     "util": "^0.10.3"
   },
