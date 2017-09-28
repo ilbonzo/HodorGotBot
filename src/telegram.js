@@ -2,17 +2,15 @@
 'use strict';
 const telegramBot = require('node-telegram-bot-api');
 
-const config = require ('../config.json');
-
-const indexController = require('./controllers/telegram/indexController')(controller);
+const indexController = require('./controllers/telegram/indexController');
 
 module.exports = {
 
-    init: function () {
+    init: function (config) {
 
         const bot = new telegramBot(config.telegramToken, {polling: true});
 
-        indexController.start(controller);
+        indexController.start(bot);
 
     }
 

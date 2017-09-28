@@ -1,12 +1,11 @@
 'use strict';
 const Botkit = require('botkit');
 
-const config = require ('../config.json');
-const indexController = require('./controllers/slack/indexController')(controller);
+const indexController = require('./controllers/slack/indexController');
 
 module.exports = {
 
-    init: function () {
+    init: function (config) {
 
         const controller = Botkit.slackbot({
             debug: false
