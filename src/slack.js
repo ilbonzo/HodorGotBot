@@ -2,22 +2,23 @@
 const Botkit = require('botkit');
 
 const config = require ('../config.json');
-const hodorTalk = require ('./modules/hodorTalk');
-
+const indexController = require('./controllers/slack/indexController')(controller);
 
 module.exports = {
+
     init: function () {
 
-        var controller = Botkit.slackbot({
+        const controller = Botkit.slackbot({
             debug: false
         });
 
-        controller.spawn({
+        const bot = controller.spawn({
            token: config.slackToken
-        }).startRTM();
+        })
 
-        controller.hears('hodor',    ['direct_message','direct_mention','mention'],function(bot,message) {
-            bot.reply(message,hodorTalk.getGenericResponse());
-        });
+        indexController.start(controller);
+
+        bot.startRTM();
     }
+
 }
