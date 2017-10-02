@@ -1,4 +1,10 @@
 {
-    "telegramToken": "xxxx",
-    "slackToken": "xxxx"
+    "production": {
+        "telegramToken": "xxxx",
+        "slackToken": "xxxx"
+    },
+    "development": {
+        "telegramToken": "xxxx",
+        "slackToken": "xxxx"
+    }
 }
