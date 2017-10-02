@@ -1,5 +1,4 @@
 'use strict';
-'use strict';
 const telegramBot = require('node-telegram-bot-api');
 
 const indexController = require('./controllers/telegram/indexController');
