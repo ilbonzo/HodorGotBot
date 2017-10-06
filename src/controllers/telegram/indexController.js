@@ -24,13 +24,14 @@ module.exports = {
         });
 
         bot.onText(/\/hodor/, (message) => {
-            bot.sendMessage(message.chat.id, hodorTalk.getGenericResponse());
+            if (message.text === '/hodor') {
+                bot.sendMessage(message.chat.id, hodorTalk.getGenericResponse());
+            }
         });
 
         bot.onText(/\/hodor (.+)/, (message, match) => {
             const chatId = message.chat.id;
             const resp = match[1];
-
             bot.sendMessage(chatId, hodorTalk.getOdorByHodor(resp));
         });
 
