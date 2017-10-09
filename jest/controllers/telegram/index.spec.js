@@ -51,8 +51,7 @@ test('get not send response of generic message in telegram', () => {
                 'text': 'Hi hodor',
                 'chat': {
                     'id': 10
-                },
-                'entities': 'undefined'
+                }
             });
 });
 
