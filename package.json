@@ -4,7 +4,9 @@
   "description": "HodorGotBot provides a modern, solution to the common problem of chat with Hodor",
   "main": "src/index.js",
   "scripts": {
-    "test": "node_modules/jest/bin/jest.js"
+    "test": "node_modules/.bin/jest",
+    "coverage": "node_modules/.bin/jest --coverage",
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
   },
   "author": "matteo@magni.me",
   "license": "MIT",
@@ -16,12 +18,16 @@
   },
   "devDependencies": {
     "botkit-mock": "^0.1.3",
+    "coveralls": "^3.0.0",
     "jest": "^21.0.2",
     "jest-cli": "^21.2.1"
   },
   "jest": {
     "collectCoverage": true,
     "verbose": true,
-    "coverageReporters": ["json", "html"]
+    "coverageReporters": [
+      "json",
+      "html"
+    ]
   }
 }
