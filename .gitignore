@@ -4,5 +4,6 @@ config.json
 
 .env
 
-coverage
+coverage/*
+!coverage/.gitignore
 .coveralls.yml
