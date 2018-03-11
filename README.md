@@ -3,6 +3,7 @@ HodorGotBot
 [![Build Status](https://travis-ci.org/ilbonzo/HodorGotBot.svg?branch=master)](https://travis-ci.org/ilbonzo/HodorGotBot)
 [![Coverage Status](https://coveralls.io/repos/github/ilbonzo/HodorGotBot/badge.svg)](https://coveralls.io/github/ilbonzo/HodorGotBot)
 [![Dependencies Status](https://david-dm.org/ilbonzo/HodorGotBot.svg)](https://david-dm.org/ilbonzo/HodorGotBot)
+[![BCH compliance](https://bettercodehub.com/edge/badge/ilbonzo/HodorGotBot?branch=master)](https://bettercodehub.com/)
 
 v0.0.5
 
